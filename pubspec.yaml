@@ -1,12 +1,12 @@
 name: s_metar
-description: A package for parsing METAR/TAF aeronautical weather reports. Provides Met reports decoding (wind, vis, present wx, clouds...). Provides an API to fetch METAR/TAF data from `aviationweather.gov API`.
+description: Parse/decode METAR/TAF aeronautical weather reports (wind, visibility, weather, clouds...). Fetch live/past METAR/TAF data from aviationweather.gov API.
 
 
 license: MIT
 
 issue_tracker: https://github.com/SoundSliced/s_metar/issues
 repository: https://github.com/SoundSliced/s_metar
-version: 1.0.1
+version: 1.0.2
 homepage: https://github.com/SoundSliced/s_metar
 
 topics:

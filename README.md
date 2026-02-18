@@ -55,7 +55,7 @@ A Flutter/Dart package for parsing **METAR** and **TAF** aeronautical weather re
 
 ```yaml
 dependencies:
-  s_metar: ^1.0.1
+  s_metar: ^1.0.2
 ```
 
 ## Quick start

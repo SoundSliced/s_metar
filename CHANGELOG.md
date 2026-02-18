@@ -1,4 +1,7 @@
 
+## 1.0.2 - 2026-02-18
+- `pubspec.yaml`'s package description updated
+
 ## 1.0.1 - 2026-02-18
 - README updated
 
