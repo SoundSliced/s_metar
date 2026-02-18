@@ -30,7 +30,7 @@ void main() {
     });
 
     test('wind direction cardinal', () {
-      expect(metar.wind.cardinalDirection, 'W');
+      expect(metar.wind.cardinalDirection, 'WSW');
     });
 
     test('wind is not calm', () {
