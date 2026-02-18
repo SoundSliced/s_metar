@@ -1,10 +1,12 @@
 name: s_metar
-description: A Flutter/Dart package for parsing METAR and TAF aeronautical weather reports. Provides full decoding of wind, visibility, weather, clouds, temperature, pressure, runway range, sea state, and TAF change forecasts.
+description: A package for parsing METAR/TAF aeronautical weather reports. Provides Met reports decoding (wind, vis, present wx, clouds...). Provides an API to fetch METAR/TAF data from `aviationweather.gov API`.
+
+
 license: MIT
 
 issue_tracker: https://github.com/SoundSliced/s_metar/issues
 repository: https://github.com/SoundSliced/s_metar
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/SoundSliced/s_metar
 
 topics:

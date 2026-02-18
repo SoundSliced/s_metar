@@ -1,6 +1,8 @@
 # s_metar
 
-A Flutter/Dart package for parsing **METAR** and **TAF** aeronautical weather reports from aviation meteorological stations worldwide.
+A Flutter/Dart package for parsing **METAR** and **TAF** aeronautical weather reports from aviation meteorological stations worldwide + and also provides a `fetch` static method to get METAR and TAF from `aviationweather.gov API`
+
+![s_metar interactive demo](https://raw.githubusercontent.com/SoundSliced/s_metar/main/example/assets/example.gif)
 
 ## Features
 
@@ -53,7 +55,7 @@ A Flutter/Dart package for parsing **METAR** and **TAF** aeronautical weather re
 
 ```yaml
 dependencies:
-  s_metar: ^1.0.0
+  s_metar: ^1.0.1
 ```
 
 ## Quick start
@@ -144,7 +146,6 @@ if (result.isSuccess) {
 See the `example/` directory for a full interactive demo — pick from preset METARs, enter
 your own code, browse every parsed field, and fetch live reports by ICAO code.
 
-![s_metar interactive demo](https://raw.githubusercontent.com/SoundSliced/s_metar/main/example/assets/example.gif)
 
 ```bash
 cd example
