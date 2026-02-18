@@ -1,0 +1,17 @@
+name: example
+description: Interactive example app demonstrating the s_metar package
+publish_to: none
+version: 1.0.0
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+  flutter: '>=3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  s_metar:
+    path: ../
+
+flutter:
+  uses-material-design: true

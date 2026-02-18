@@ -1,0 +1,4 @@
+# Example app uses minimal lint rules
+linter:
+  rules:
+    prefer_const_constructors: false
