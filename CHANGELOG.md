@@ -1,3 +1,5 @@
+## [2.0.0]
+- `s_packages` dependency upgraded to ^3.0.0
 
 ## 1.0.2 - 2026-02-18
 - `pubspec.yaml`'s package description updated
