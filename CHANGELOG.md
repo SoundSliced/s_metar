@@ -1,3 +1,12 @@
+## [2.1.0]
+- `s_packages` dependency upgraded to ^3.5.0
+  - **`s_metar` live fetch flexibility upgrade:**
+    - Added configurable fetch options for alternate METAR/TAF endpoints.
+    - Added custom success-code handling for non-standard API responses.
+    - Added configurable JSON field mapping and item extraction so raw METAR/TAF strings can be read from different response shapes.
+    - Added a proxy toggle so callers can disable proxy attachment entirely when talking directly to an API.
+    - Added focused tests covering custom parsing and direct-only fetch behavior.
+
 ## [2.0.0]
 - `s_packages` dependency upgraded to ^3.0.0
 
